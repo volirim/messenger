@@ -1,0 +1,50 @@
+.input-pinButton {
+    position: absolute;
+    font-size: 25px;
+    right: 55.5px;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-pinButton:hover {
+    color: gray;
+}
+
+.input-pinMenu {
+    display: none;
+    border: 1px solid gray;
+    border-bottom: 0;
+    margin: 0;
+    top: 0;
+    list-style: none;
+    transform: translateY(-100%) translateX(-30%);
+}
+
+.input-pinMenu::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+}
+
+.input-pinButton:hover > .input-pinMenu {
+    width: 100px;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+    background-color: #E1ECE1;
+    cursor: pointer;
+}
+
+.input-pinMenuItem {
+    text-decoration: none;
+    width: fit-content;
+    user-select: none;
+}

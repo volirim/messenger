@@ -1,0 +1,97 @@
+.modal-fileUpload {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-fileUploadTitle {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.fileUploadImagesArea {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.imagesInput-imgContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 400px;
+    overflow-x: auto;
+}
+
+.incertedImageContainer {
+    position: relative;
+    margin: 0 5px;
+}
+
+.incertedImage {
+    height: 150px;
+    z-index: 14;
+}
+
+.removeImgButton {
+    transition: 0.2s;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0;
+    border: none;
+    background: transparent;
+    z-index: 15;
+}
+
+.removeImgButton:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+    background-color: rgba(128, 128, 128, 0.271);
+}
+
+.removeImgButton::after {
+    content: '';
+    position: absolute;
+    transform: translate(-50%) rotate(45deg);
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.removeImgButton::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%) rotate(-45deg);
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.modal-fileUploadInput {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.modal-imageinput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.modal-discardFileButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(calc(100% + 10px)) translateY(-10px);
+    background-color: transparent;
+}

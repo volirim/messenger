@@ -1,0 +1,108 @@
+.messageContainer {
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.userMessageContainer {
+    display: flex;
+    width: 70%;
+    margin: 8px 0px;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.messageAvatar {
+    align-self: middle;
+    margin: 5px;
+}
+
+.messageTime {
+    text-align: end;
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+
+.companionMessageTime {
+    text-align: start;
+}
+
+.chat-message {
+    padding: 13px 12.5px 16px 17px;
+    width: 315px;
+    margin: 8px 0px;
+    border-radius: 0px 27.7812px 27.7812px 27.7812px !important;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14.4775px !important;
+    background-color: rgb(235,243,233) !important;
+    color: black !important;
+}
+
+.chat-messageInner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.chat-userMessage {
+    position: relative;
+    align-self: flex-end;
+    border-radius: 27.7812px 0px 27.7812px 27.7812px !important;
+    background-color: rgb(235,243,233) !important;
+}
+
+.chat-userMessageInner {
+    width: 100%;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: left;
+}
+
+.message-login {
+    color: black !important;
+    font-size: 10px;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+.chat-userLogin {
+    color: white !important;
+    font-size: 10px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
+.chat-text {
+    padding: 5px;
+    align-self: flex-start;
+    word-break: break-word;
+}
+
+.chat-textTimeContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-checkContainer {
+    width: 40px;
+    height: 40px;
+    background-color: #D3E8D2;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    transform: translateY(40%);
+}

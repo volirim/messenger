@@ -1,0 +1,28 @@
+.acceptCallModalContainer {
+    padding: 50px;
+}
+
+.acceptCallModalButtons {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.acceptCallButton {
+    height: 60px;
+    width: 60px !important;
+    font-size: 30px !important;
+    border-radius: 50px !important;
+    color: #424941 !important;
+}
+
+.declineCallButton {
+    height: 60px;
+    width: 60px !important;
+    font-size: 30px !important;
+    border-radius: 50px !important;
+    background-color: rgb(255 117 117) !important;
+    color: white !important;
+}

@@ -1,0 +1,10 @@
+.profileContainer {
+    margin: 40px;
+    width: 70%;
+    flex: 1 1 auto;
+    align-self: stretch;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-y: auto;
+    border-radius: 20px;
+}

@@ -1,0 +1,43 @@
+.mainUser-container {
+    background-color: #FBFDF6;
+}
+
+.userInner-nickname > span {
+    font-size: 17px !important;
+}
+
+.userInner-lastMessage > span {
+    font-size: 13px !important;
+}
+
+.userInner-messageTime {
+    align-self: start !important;
+}
+
+.userInner-messageTime > span {
+    display: block !important;
+    font-size: 13px !important;
+    text-align: right !important;
+    vertical-align: text-top;
+}
+
+.user-messageCheckContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-messageArea {
+    width: 100%;
+}
+
+.user-timeCheckArea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-messageCheck {
+    display: inline;
+}

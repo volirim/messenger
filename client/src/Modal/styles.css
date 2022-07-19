@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  z-index: 999;
+  padding: 40px 20px 20px;
+}
+  
+.modal-content {
+  background-color: #E1ECE1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 40px;
+}
+
+.modal-closeBtn {
+  width: 100px;
+  height: 25px;
+  background-color: #E1ECE1;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.modal-closeBtn:hover {
+  transform:scaleX(0.8) scaleY(0.9);
+  transition: 0.3s;
+  color: black;
+}

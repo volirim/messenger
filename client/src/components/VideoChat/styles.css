@@ -1,0 +1,13 @@
+.videoChatModalContainer {
+    padding: 50px;
+}
+
+.modal-video {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.modal-videoWindow {
+    width: 40%;
+}

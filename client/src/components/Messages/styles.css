@@ -1,0 +1,16 @@
+.chat-messagesContainer{
+    flex: 1 1 auto;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.chat-messages {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chat-messagesContainer::-webkit-scrollbar {
+    display: none;
+}
